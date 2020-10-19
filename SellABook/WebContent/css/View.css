@@ -1,0 +1,82 @@
+@charset "UTF-8";
+<style>
+#buyIcon{
+	background-color:black;;
+}
+.wrap {
+	width: 500px;
+}
+.two {
+	width: 100%;
+	background-color: orange;
+}
+
+.two.left {
+	width: 20%;
+	float: left;
+	background: pink;
+}
+
+.two.right {
+	width: 80%;
+	float: right;
+	background: pink;
+}
+
+.three {
+	background-color: yellow;
+}
+
+
+.image{
+width:50%;
+
+}
+
+.hidden{
+width:50%;
+}
+
+.four {
+	background-color: green;
+}
+
+table, tr, td, th {
+	border: 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.content_wrap {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin: 25px 60px 0 60px;
+	padding: 5px;
+	font-size: 12px;
+	line-height: 130%;
+	height: 100%;
+	min-height: 160px;
+	border: 1px solid;
+}
+
+.btn_more {
+	display: block;
+	padding: 37px 0 0 0;
+	margin: 30px 0 0 0;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+}
+
+/* 시놉시스 더보기 */
+.SynopsisText {
+	/* height: 77px; */
+	width: 100%;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+<!--max-height:54px;display:block;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis -->
+</style>

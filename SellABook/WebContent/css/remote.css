@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*최근 본 도서 */
+#remoteDiv {
+ 	width : 10%; 
+	background-color : rgb(196,246,196);
+	position : fixed;
+	right : 5%;
+	top: 60%;
+	min-height: 300px;
+}
+
+#remoteMent{
+	color:black;
+	text-align: center;
+}

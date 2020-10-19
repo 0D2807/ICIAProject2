@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#insertDiv{
+ display:none;
+	
+}
+/* 도서 카테고리  */
+#left {
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+	background: pink;
+	height:10000000px;
+	text-align:center;
+	
+}
+
+/* #right {
+	width: 80%;
+	float: right;
+	box-sizing: border-box;
+	background: yellow;
+} */
+/* 
+.imgDiv{
+	display: none;
+	
+}  */
+
+/* fieldset{
+	width:980px;
+} */
+/*상세정보를 이동하기 위한 버튼 설정  */
+button{
+	border:0;
+	background-color: white;
+}
+/*  */
+.listTitle{
+	width:400px;
+	height:50px;
+}
+/* 책추가 */ 
+#addBook{
+	border:0;
+	background-color: pink;
+	
+}
+/* a태그 */
+a{
+ display:inline-block;
+ height:50px;	
+ text-decoration:none;
+}
+/* 도서별 카테고리 class */
+.a{
+ color:blue;	
+ font-size:20px;
+ font-family:"sans-serif";
+ font:bold;
+}
+/*카테고리별 도서항목  */
+.bookList{
+  	border:1px solid black;
+  	text-align:center;
+  	margin-left:400px;
+	margin-top:30px;
+	width:1000px;
+	heigth:500px;
+	
+}
+/*미리보기 도서  */
+.title {
+	border-collapse: collapse;
+	border:2px solid black;
+	width:1100px;
+	height:100px;
+	margin-left:400px;	
+}
+.imgDiv{
+	display: none;
+	
+} 

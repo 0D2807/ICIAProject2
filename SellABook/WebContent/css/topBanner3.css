@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*맨위  */
+#topDiv {
+	width: 100%;
+
+	/* margin-left: 700px; */
+
+	height: 40px;
+	margin: 2% auto 1% auto;
+}
+body{
+	background-color:#F5F5DC;
+}
+#bodyDiv{
+	margin:0 auto;
+}
+#searchDiv{
+    width:45%;
+    padding:0;
+	float : left;
+	height:40px;
+}
+#loginDiv{
+   width:50%;
+   padding:0;
+   float:right;
+   height:40px;
+}
+	
+#form3{
+	margin:0;
+	padding:0;
+	width:50%;
+	float:right;
+}
+.form{
+   margin:0;
+   padding:0;
+   float:left;
+}
+
+#logo{
+	width:100px;
+	height:auto;
+	position:absolute;
+	top:10px;
+	left:15%;
+}
+#logo>a{
+	width:100%;
+}
+#logo>a>Img{
+	width:100%;
+}
+p{
+	margin:0;
+	padding:0;
+}
+
+.form>input{
+width: 20%;}
+#bodydiv{
+width:50%;
+margin:0 auto;
+}
+
+#joinbtn{
+	margin-right:-2%;
+	width:48%;
+	border:1px solid #9fbd7e;
+	background-color : #F5F5DC;
+	color: #9fbd7e;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	height:25px;
+}
+#loginbtn{
+	margin-left:-1.5%;
+	width:50%;
+	border:1px solid #9fbd7e;
+	background-color : #F5F5DC;
+	color:#9fbd7e;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-left:none;
+	height:25px;
+}
+#loginbtn:active,#joinbtn:active{
+	
+	outline:none;
+}
+#loginbtn:after,#joinbtn:after{
+	outline:none;
+}
+#loginbtn:active:after,#joinbtn:active:after{
+	outline:none;
+}
+#loginbtn:hover,#joinbtn:hover,#logoutbtn:hover{
+	color:#F5F5DC;
+	background-color:#9fbd7e;
+	border: 1px solid #F5F5DC;
+}
+#loginbtn:focus,#joinbtn:focus{
+	outline:none;
+	color:#F5F5DC;
+	background-color:#9fbd7e;
+	border: 1px solid #F5F5DC;
+}
+#logoutbtn{
+	
+	width:25%;
+	border:1px solid #9fbd7e;
+	background-color : #F5F5DC;
+	color:#9fbd7e;
+	border-radius:10px;
+	height:25px;
+}
+
+/* 맨위 끝 */
+/* 포커싱 */
+
+
+button:focus,input:focus,a:focus,select:focus{
+	outline:none;
+}

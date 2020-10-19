@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* 카테고리*/
+li,ul,ol {
+ list-style:none;
+ font-size:1.5rem;
+ margin:10px auto;
+ text-align:center;
+ padding-right:20px;
+}
+#categoryDiv{
+width:30%;
+margin-top:40px;
+background-color:#ffffff;
+float:left;
+}
+
+#categoryDiv>ul>li>a{
+
+color: black;
+text-decoration: none;
+}
+#categoryDiv>ul>li{
+height : 50px;
+background-color:#f5ffdc;}
+#categoryDiv>ul>li:hover{
+background-color:#F5F5DC;}
+ol,li,ul{
+margin:0;
+padding:0;}
+/* 카테고리끝  */

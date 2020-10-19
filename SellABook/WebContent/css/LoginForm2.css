@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*로그인폼  */
+
+/*body */
+body{
+background-color:#F5F5DC;
+}
+/*로그인 div */
+
+#loginField{
+border-top: 3px solid gray;
+width:40%;
+margin: 0 auto;
+margin-top:11%;
+
+height:600px;
+
+box-sizing:border-box;
+
+}
+
+/* 로그인 버튼 */
+#loginbtn{
+	border:1px solid #9fbd7e;
+width:50%;
+height:35px;
+margin:15px 0;
+margin-right:-2%;
+font-size:1.2rem;
+background-color:#F5F5DC;
+color:#9fbd7e;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#joinbtn{
+	border:1px solid #9fbd7e;
+	width:50%;
+	font-size:1.2rem;
+	height:35px;
+	margin:15px 0;
+	background-color:#F5F5DC;
+color:#9fbd7e;
+	border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+#joinbtn:hover,#loginbtn:hover{
+	background-color:#9fbd7e;
+	color:#F5F5DC;
+	border:1px solid #F5F5DC;
+}
+
+#btnDiv{
+	margin:0 auto;
+}
+/*로그인 아이디와 비밀번호 입력창  */
+#loginPw,#loginId{
+width:100%;
+height:25px;
+margin:0 auto;
+
+}
+#logo{
+	width:100%;
+	height:300px;
+	margin:0 auto;
+}
+#topText{
+	position:absolute;
+	left:20%;
+	top:60px;
+}
+#logoDiv{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+table,tr,td{
+	width:100%;
+	margin:0 auto;
+	text-aline:center;
+}
+
+#loginTable{
+	width:80%;
+	margin:0 auto;
+}
+
+
+

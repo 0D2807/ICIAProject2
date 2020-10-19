@@ -1,0 +1,138 @@
+@charset "UTF-8";
+#insertDiv{
+ display:none;
+	
+}
+
+/* 도서 카테고리  */
+#left{
+	width: 18%;
+	float: left;
+	box-sizing: border-box;
+	background-color:#f5ffdc;
+	text-align: center;
+	height: auto;
+	margin:0;
+}
+#left>a{
+	width:100%;
+	line-height:3rem;
+}
+#left>a:hover{
+	background-color:#F5F5DC;
+}
+body{
+	background-color:#F5F5DC;
+}
+/* #right {
+	width: 80%;
+	float: right;
+	box-sizing: border-box;
+	background: yellow;
+} */
+
+/*  .imgDiv {
+	display: none;
+}
+ */
+/*마우스를 올렸을 때 나오는 도서 미리보기  */
+
+/*상세정보를 이동하기 위한  */
+.bookList>button {
+	border: 0;
+	background-color: #F5F5DC;
+}
+/* 책추가 */
+#addBook {
+	border: 0;
+	background-color: whitegray;
+}
+/*  */
+
+/* a태그 */
+a {
+	color: black;
+	display: inline-block;
+	height: 50px;
+	text-decoration: none;
+	
+}
+/* 도서별 카테고리 class */
+.a {
+	color: black;
+	font-size: 20px;
+	font-family: "sans-serif";
+	font: bold;
+}
+/*카테고리별 도서항목  */
+.bookList {
+	border: 1px solid black;
+	text-align: center;
+	width:15%;
+	height:40px;
+}
+/*미리보기 도서  */
+
+#image1{
+width: auto;
+height:auto;
+}
+
+}
+.imgDiv{
+	display: none;
+	
+} 
+#bookImg{
+	width:80%;
+	float:left;
+	height:auto;
+	margin:0;
+	paddin:0;
+}
+#bookImg>img{
+	float:left;
+	width:100%;
+	margin:0;
+}
+#bookTable{
+	text-align:center;
+	width:80%;
+	float:left;
+}
+#logo{
+	position:absolute;
+	left : 15%;
+	top : 10px;
+}
+#infoDiv{
+	float:left;
+	width:80%;
+}
+/* 상단 이미지 */
+.bookListImg{
+	width:20%;
+	margin:0;
+	padding:0;
+	float:left;
+	height:150px;
+}
+.bookListImg>img{
+	width:100%;
+	height:150px;
+}
+#topImg{
+	width:100%;
+	height:150px;
+}
+.title{
+	border: 1px solid black;
+	
+	text-align: center;
+	width:15%;
+	height:40px;
+}
+
+table,tr,td,th{
+	border-collapse:collapse;
+}

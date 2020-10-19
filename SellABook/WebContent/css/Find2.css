@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+background-color:#F5F5DC;
+}
+#FindIdDiv{
+	margin-left:20%;
+	border-right:1.5px solid gray;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	
+}
+
+#FindIdDiv>form{
+	text-align:center;
+}
+#FindIdDiv>form>table{
+	margin:0 auto;
+}
+
+#findPwDiv{
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-left:1.5px solid gray;
+}
+
+
+#findPwDiv>form{
+	text-align:center;
+}
+#findPwDiv>form>table{
+	margin:0 auto;
+}
+#FindIdDiv,#findPwDiv{
+	width:30%;
+	float:left;
+	margin-top:7%;
+	height:100px;
+	
+}
+#FindIdDiv:hover,#findPwDiv:hover{
+	background-color:#f5ffdc;
+}

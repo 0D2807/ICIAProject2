@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*맨위  */
+#topDiv {
+	width: 1000px;
+	margin-top: 20px;
+	/* margin-left: 700px; */
+	margin-bottom: 10px;
+	height: 30px;
+	
+}
+#searchDiv{
+    width:450px;
+    padding:0;
+	float : left;
+}
+#loginDiv{
+   width:450px;
+   padding:0;
+   float:right;
+}
+.form2{
+	float:left;
+}
+.form{
+   margin:0;
+   padding:0;
+   float:left;
+}
+
+.form>input{
+width: 100px;}
+#bodydiv{
+max-width : 1000px;
+min-width : 500px;
+margin:0 auto;
+}
+/* 맨위 끝 */
